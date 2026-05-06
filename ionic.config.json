@@ -1,0 +1,7 @@
+{
+  "name": "miAppMenus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
