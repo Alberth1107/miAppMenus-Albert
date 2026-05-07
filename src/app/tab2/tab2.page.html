@@ -1,17 +1,94 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <!-- Título principal de la sección Información Personal -->
+    <ion-title>Información Personal</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <!-- Contenedor principal dividido en dos columnas -->
+  <!-- A la izquierda Leon, a la derecha Dorian -->
+  <div class="contenedor-columnas anim-fade">
+
+    <!-- Columna Izquierda: LEON -->
+    <div class="columna anim-fade">
+      <ion-card class="tarjeta-jugador anim-fade">
+        <ion-img src="assets/img/TarjetaLeon.png" class="anim-glow"></ion-img>
+
+        <ion-card-header>
+          <ion-card-title>Leon Hernández</ion-card-title>
+          <ion-card-subtitle>Delantero • #23</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+
+          <!-- Información adicional para igualar tamaño -->
+          <p><strong>Posición:</strong> DELANTERO</p>
+          <p><strong>Edad:</strong> 7 AÑOS</p>
+          <p><strong>Habilidad Clave:</strong> DEFINICIÓN</p>
+
+          <p><strong>Agilidad:</strong> ⚽⚽⚽⚽⚽</p>
+          <p><strong>Dedicación:</strong> ⚽⚽⚽⚽⚽</p>
+
+          <p><strong>PERFIL</strong></p>
+          <ul>
+            <li>Atacante rápido y decidido</li>
+            <li>Gran capacidad de definición</li>
+            <li>Futuro goleador destacado</li>
+          </ul>
+
+          <p class="texto-jugador">
+            7 años. Buen atacante, con firmeza y determinación en cada jugada.
+          </p>
+
+          <p class="frase-jugador">“El gol es mi destino, busco la victoria”</p>
+
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <!-- Columna Derecha: DORIAN -->
+    <div class="columna anim-fade">
+      <ion-card class="tarjeta-jugador anim-fade">
+        <ion-img src="assets/img/TarjetaDorian.png" class="anim-glow"></ion-img>
+
+        <ion-card-header>
+          <ion-card-title>Dorian Hernández</ion-card-title>
+          <ion-card-subtitle>Defensa / Extremo • #16</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+
+          <!-- Información adicional para igualar tamaño -->
+          <p><strong>Posición:</strong> CENTRAL Y EXTREMO</p>
+          <p><strong>Edad:</strong> 10 AÑOS</p>
+          <p><strong>Habilidad Clave:</strong> VERSATILIDAD</p>
+
+          <p><strong>Agilidad:</strong> ⚽⚽⚽⚽⚽</p>
+          <p><strong>Dedicación:</strong> ⚽⚽⚽⚽⚽</p>
+
+          <p><strong>PERFIL</strong></p>
+          <ul>
+            <li>Defensor firme y disciplinado</li>
+            <li>Gran capacidad de anticipación</li>
+            <li>Jugador versátil con liderazgo</li>
+          </ul>
+
+          <p class="texto-jugador">
+            10 años. Rápido, fuerte, centrado y con excelente pegada.
+          </p>
+
+          <p class="frase-jugador">“Siempre firme en la defensa y veloz en el ataque.”</p>
+
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+  </div>
+
 </ion-content>
+
+
+
+

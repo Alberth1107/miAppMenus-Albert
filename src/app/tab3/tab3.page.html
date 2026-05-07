@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Contacto</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <!-- INFORMACIÓN DE CONTACTO -->
+  <div class="info-contacto">
+    <h2 class="titulo-seccion">Representantes</h2>
+
+    <p><strong>Padre:</strong> Albert Hernández</p>
+    <p><strong>Teléfono:</strong> 04146183645</p>
+    <p><strong>Correo:</strong> alberth1107@gmail.com</p>
+
+    <br>
+
+    <p><strong>Madre:</strong> María Lorena Marquez</p>
+    <p><strong>Teléfono:</strong> 04247172080</p>
+    <p><strong>Correo:</strong> mmarquez345@gmail.com</p>
+  </div>
+
+  <!-- FOTO DEBAJO DE LA INFORMACIÓN -->
+  <div class="foto-contacto">
+    <img src="assets/img/Dorian y Leon.jpeg" class="foto-hermanos" />
+  </div>
+
+  <!-- REDES SOCIALES DEBAJO DE LA FOTO -->
+  <div class="bloque-redes">
+
+    <h2 class="titulo-seccion">Redes Sociales</h2>
+    <h3 class="subtitulo-seccion">Fútbol Infantil</h3>
+
+    <div class="redes-jugador">
+      <p class="nombre-jugador"><strong>Leon Hernández</strong></p>
+
+      <ion-button fill="clear" class="btn-red">
+        <ion-icon name="logo-instagram"></ion-icon>
+        @leon_hernandez23
+      </ion-button>
+
+      <ion-button fill="clear" class="btn-red">
+        <ion-icon name="logo-facebook"></ion-icon>
+        leon_hernandez23
+      </ion-button>
+    </div>
+
+    <div class="redes-jugador">
+      <p class="nombre-jugador"><strong>Dorian Hernández</strong></p>
+
+      <ion-button fill="clear" class="btn-red">
+        <ion-icon name="logo-instagram"></ion-icon>
+        @dorianhm_16
+      </ion-button>
+
+      <ion-button fill="clear" class="btn-red">
+        <ion-icon name="logo-facebook"></ion-icon>
+        dorianhm_16
+      </ion-button>
+    </div>
+
+  </div>
+
+  <p class="frase-final">“El fútbol nos une. Gracias por tu apoyo.”</p>
+
 </ion-content>
+
+
+
+

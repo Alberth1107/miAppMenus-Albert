@@ -1,0 +1,113 @@
+/* Fondo premium negro con brillos azules intensos */
+ion-content {
+  --background: url('/assets/img/fondo.png') no-repeat center center / cover;
+}
+
+/* ----------------------------- */
+/* ANIMACIONES AGREGADAS */
+/* ----------------------------- */
+
+/* Animación de entrada suave */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animación de brillo suave */
+@keyframes glow {
+  0% { box-shadow: 0 0 6px #4fc3f7; }
+  50% { box-shadow: 0 0 14px #81d4fa; }
+  100% { box-shadow: 0 0 6px #4fc3f7; }
+}
+
+/* Clases para activar animaciones */
+.anim-fade {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.anim-glow {
+  animation: glow 3s infinite ease-in-out;
+}
+
+/* ----------------------------- */
+/* TU CÓDIGO ORIGINAL (NO CAMBIADO) */
+/* ----------------------------- */
+
+/* Contenedor principal dividido en dos columnas */
+/* En pantallas grandes se ven lado a lado */
+/* En teléfonos se apilan automáticamente */
+.contenedor-columnas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap; /* Permite que en pantallas pequeñas se acomoden uno debajo del otro */
+}
+
+/* Cada columna ocupa espacio equilibrado */
+.columna {
+  flex: 1;
+  max-width: 360px; /* Tamaño ideal para tarjetas deportivas */
+}
+
+/* Tarjeta del jugador */
+/* Mantengo el estilo glass card para coherencia visual */
+.tarjeta-jugador {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffffcc;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+}
+
+/* Imagen de la tarjeta */
+/* Le doy borde deportivo como en la pantalla de Inicio */
+.tarjeta-jugador ion-img {
+  width: 100%;
+  border-radius: 16px;
+  padding: 6px;
+  background: linear-gradient(135deg, #0d47a1, #1e88e5);
+  object-fit: contain;
+}
+
+/* Título del jugador */
+ion-card-title {
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+  color: #0d47a1;
+}
+
+/* Subtítulo del jugador */
+ion-card-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a237e;
+  margin-bottom: 8px;
+}
+
+/* Texto descriptivo del jugador */
+.texto-jugador {
+  font-size: 1.05rem;
+  line-height: 1.45;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  margin: 0 12px 12px 12px;
+}
+
+/* Frase personal del jugador */
+.frase-jugador {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+
+

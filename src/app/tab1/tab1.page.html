@@ -1,17 +1,33 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <!-- Título principal de la pestaña Inicio -->
+    <!-- Decidí mantener un título simple y directo -->
+    <ion-title>Inicio</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!-- Título principal de bienvenida -->
+  <!-- Lo uso para presentar la app con un estilo elegante -->
+  <h1 class="titulo-inicio">Somos los Hermanos Hernández</h1>
+
+  <!-- Imagen principal del inicio -->
+  <!-- Esta imagen representa a mis hijos y es el centro visual de la app -->
+  <img src="assets/img/Dorian y Leon.jpeg" class="imagen-inicio" />
+
+  <!-- Texto descriptivo -->
+  <!-- Aquí explico brevemente el propósito de la aplicación -->
+  <p class="texto-inicio">
+    Esta aplicación está dedicada al talento, disciplina y pasión por el fútbol
+    de mis hijos Dorian y Leon Hernández. Aquí muestro su información personal,
+    sus redes sociales y datos de contacto.
+  </p>
+
+  <!-- Botón de navegación opcional -->
+  <!-- Lo dejo por si quiero agregar una acción rápida desde el inicio -->
+  <ion-button expand="block" class="boton-inicio">
+    Conocer más
+  </ion-button>
+
 </ion-content>
