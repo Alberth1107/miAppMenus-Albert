@@ -66,17 +66,7 @@ Estado actual en este repo:
 
 - [x] Código subido a GitHub: https://github.com/Alberth1107/miAppMenus-Albert
 - [x] Estructura de la app con pestañas: las carpetas `src/app/tabs`, `src/app/tab1`, `tab2`, `tab3` están presentes.
-- [ ] Documentación en código: se recomienda añadir comentarios en español en los archivos de `src/app/*` explicando la lógica implementada.
-- [x] Archivo con instrucciones para entregar (se incluye `ENTREGA.md` listo para convertir a PDF).
+- [ ] Documentación en código
+- [x] Archivo con instrucciones para entregar.
 
-Instrucciones rápidas para la entrega PDF:
 
-- Abre `ENTREGA.md` y complétalo con los datos personales y capturas solicitadas.
-- Convierte a PDF desde tu editor (por ejemplo, Visual Studio Code con la extensión "Markdown PDF") o exportando desde Word/LibreOffice.
-- Sube el PDF a la plataforma de la Universidad y pega el enlace del repositorio GitHub en el documento donde se solicite.
-
-Si quieres, puedo:
-
-- Añadir comentarios en los archivos principales para cumplir la cláusula de documentación (puedo insertar comentarios explicativos en `tab1.page.ts`, `tab2.page.ts`, `tab3.page.ts`, y `tabs.page.ts`).
-- Generar `ENTREGA.md` listo para convertir a PDF y commitearlo.
-- Añadir un `.gitignore` apropiado.
