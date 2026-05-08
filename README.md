@@ -6,8 +6,6 @@ Proyecto de ejemplo creado para mis hijos, que refleja su pasión por el fútbol
 
 `miAppMenus` es una aplicación móvil creada con Ionic/Angular pensada para mostrar contenido y menús relacionados con el fútbol juvenil. Fue desarrollada como parte de la Evaluación 1 de la asignatura Programación 3.
 
-El objetivo principal es motivar a los niños a aprender programación mediante una app que muestre su interés por el deporte: noticias, tarjetas de jugadores, y navegación por pestañas.
-
 ## Propósito
 
 - Proyecto dedicado a mis hijos: fomentar su pasión por el fútbol y mostrarles cómo el software puede presentar su afición.
