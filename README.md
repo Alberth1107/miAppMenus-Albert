@@ -66,7 +66,7 @@ Estado actual en este repo:
 
 - [x] Código subido a GitHub: https://github.com/Alberth1107/miAppMenus-Albert
 - [x] Estructura de la app con pestañas: las carpetas `src/app/tabs`, `src/app/tab1`, `tab2`, `tab3` están presentes.
-- [ ] Documentación en código
+- [x] Documentación en código
 - [x] Archivo con instrucciones para entregar.
 
 
