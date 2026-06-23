@@ -211,8 +211,5 @@ ion-textarea {
 - El envío también se registra en la consola del navegador:
   - `Formulario de contacto enviado: { nombre: ..., email: ..., telefono: ..., mensaje: ... }`
 
-## 5. Capturas de pantalla
 
-Tomé una captura de la página activa de contacto en el navegador en `http://localhost:4200/tabs/tab3`.
 
-> Si deseas, puedo guardar la captura dentro del proyecto como `assets/img/contacto-form.png` y actualizar este documento con la imagen incluida.
