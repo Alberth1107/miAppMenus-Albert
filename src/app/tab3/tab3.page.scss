@@ -83,6 +83,59 @@ ion-content {
   text-shadow: 0 0 6px #0288d1;
 }
 
+/* ----------------------------- */
+/* FORMULARIO DE CONTACTO */
+/* ----------------------------- */
+
+/*tarjeta que envuelve todo el formulario */
+.form-card {
+  margin: 25px 0;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+/* estilo de cada campo para que el fondo sea transparente y suave */
+ion-item {
+  --background: rgba(255, 255, 255, 0.08);
+  margin-bottom: 16px;
+  border-radius: 14px;
+}
+
+/*  etiquetas que indican el nombre de cada campo */
+ion-label {
+  color: #e3f2fd;
+  font-weight: 600;
+}
+
+/* texto ingresado en los inputs del formulario */
+ion-input,
+ion-textarea {
+  color: #ffffff;
+}
+
+/*  título del formulario en blanco para mejor visibilidad */
+.form-card ion-card-title {
+  color: #ffffff;
+}
+
+/*  botón de enviar con color destacado */
+.submit-btn {
+  margin-top: 10px;
+  --background: #4fc3f7;
+  --color: #ffffff;
+}
+
+/*  mensaje de éxito que aparece después de enviar */
+.success-message {
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 14px;
+  background: rgba(76, 195, 247, 0.18);
+  color: #e1f5fe;
+  font-weight: 600;
+}
+
 /* Botones centrados */
 .btn-red {
   color: #ffffff;
